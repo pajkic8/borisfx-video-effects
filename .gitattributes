@@ -1,0 +1,16 @@
+# See https://github.com/github/linguist
+# Configuration for git attributes
+
+*.map linguist-generated
+*.jpeg binary
+*.md linguist-documentation
+yarn.lock linguist-generated
+
+*.min.js linguist-generated
+
+*.tsx linguist-detectable
+*.html linguist-vendored
+*.woff binary
+examples/site/* linguist-vendored
+*.json linguist-detectable=false
+# eof c2ee8f46
